@@ -1,0 +1,9 @@
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\bin\Debug\AirsoftDeliciasChihuahua.exe.config
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\bin\Debug\AirsoftDeliciasChihuahua.exe
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\bin\Debug\AirsoftDeliciasChihuahua.pdb
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\obj\Debug\AirsoftDeliciasChihuahua.csprojAssemblyReference.cache
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\obj\Debug\AirsoftDeliciasChihuahua.Properties.Resources.resources
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\obj\Debug\AirsoftDeliciasChihuahua.csproj.GenerateResource.cache
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\obj\Debug\AirsoftDeliciasChihuahua.csproj.CoreCompileInputs.cache
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\obj\Debug\AirsoftDeliciasChihuahua.exe
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\obj\Debug\AirsoftDeliciasChihuahua.pdb
