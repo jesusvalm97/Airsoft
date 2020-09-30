@@ -51,5 +51,29 @@ namespace AirsoftDeliciasChihuahua.Standard
                 }
             }
         }
-    }
+
+        public static void MapTypes()
+        {
+            var types = new List<Type>();
+            types.AddRange(typeof(Propietario).Assembly.DefinedTypes);
+
+            var dtypes = DataType.CreateDataTypes(types).ToList();
+
+            OKHOSTING.Core.BaitAndSwitch.PlatformSpecificModifiers.Add(new Tuple<Type, Func<object, object>>(typeof(object), (obj) =>
+            {
+                if (DataType.IsDataType(obj.GetType()))
+                {
+                    obj.SetCachedForeignKeyFilteredCollections();
+                }
+
+                return obj;
+            }));
+        }
+
+        public static void Create()
+        {
+            var dataBase = OKHOSTING.Core.BaitAndSwitch.Create<DataBase>();
+            dataBase.Create(DataType.AllDataTypes);
+        }
+        }
 }
