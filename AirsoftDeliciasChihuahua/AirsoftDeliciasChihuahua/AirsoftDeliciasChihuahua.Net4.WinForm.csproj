@@ -76,5 +76,31 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\OKHOSTING.Core\src\Standard\OKHOSTING.Core\OKHOSTING.Core.csproj">
+      <Project>{7bceeea5-5f7d-491e-a58f-ce9079456d1f}</Project>
+      <Name>OKHOSTING.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\OKHOSTING.ORM\src\Standard\OKHOSTING.ORM.UI\OKHOSTING.ORM.UI.csproj">
+      <Project>{59e5b104-c2a1-4f28-bb33-31f408e5c227}</Project>
+      <Name>OKHOSTING.ORM.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\OKHOSTING.ORM\src\Standard\OKHOSTING.ORM\OKHOSTING.ORM.csproj">
+      <Project>{29492020-26bb-43f2-a314-2cb4876303de}</Project>
+      <Name>OKHOSTING.ORM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\OKHOSTING.UI\src\Net4\OKHOSTING.UI.Net4.WinForms\OKHOSTING.UI.Net4.WinForms.csproj">
+      <Project>{3d1e7e01-f74a-4a00-8037-36f9d51a5860}</Project>
+      <Name>OKHOSTING.UI.Net4.WinForms</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\OKHOSTING.UI\src\Standard\OKHOSTING.UI\OKHOSTING.UI.csproj">
+      <Project>{67892927-e70f-4517-8eae-1a7afce9af7b}</Project>
+      <Name>OKHOSTING.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AirsoftDeliciasChihuahua.Standard\AirsoftDeliciasChihuahua.Standard.csproj">
+      <Project>{0d006277-7bb3-4955-ba5b-fb25124e5a6a}</Project>
+      <Name>AirsoftDeliciasChihuahua.Standard</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

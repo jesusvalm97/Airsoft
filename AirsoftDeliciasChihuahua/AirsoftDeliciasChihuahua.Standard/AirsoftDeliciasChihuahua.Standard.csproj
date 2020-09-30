@@ -6,10 +6,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\OKHOSTING.Core\src\Standard\OKHOSTING.Core\OKHOSTING.Core.csproj" />
+    <ProjectReference Include="..\..\..\OKHOSTING.ORM\src\Standard\OKHOSTING.ORM.UI\OKHOSTING.ORM.UI.csproj" />
     <ProjectReference Include="..\..\..\OKHOSTING.ORM\src\Standard\OKHOSTING.ORM\OKHOSTING.ORM.csproj" />
     <ProjectReference Include="..\..\..\OKHOSTING.SQL\src\Standard\OKHOSTING.SQL.DbProviders.MySql\OKHOSTING.SQL.DbProviders.MySql.csproj" />
     <ProjectReference Include="..\..\..\OKHOSTING.SQL\src\Standard\OKHOSTING.SQL.DbProviders\OKHOSTING.SQL.DbProviders.csproj" />
     <ProjectReference Include="..\..\..\OKHOSTING.SQL\src\Standard\OKHOSTING.SQL\OKHOSTING.SQL.csproj" />
+    <ProjectReference Include="..\..\..\OKHOSTING.UI\src\Standard\OKHOSTING.UI\OKHOSTING.UI.csproj" />
   </ItemGroup>
 
 </Project>

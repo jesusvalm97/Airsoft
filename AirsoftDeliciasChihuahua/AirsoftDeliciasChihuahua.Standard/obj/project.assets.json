@@ -160,7 +160,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Newtonsoft.Json/12.0.1": {
+      "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -1145,6 +1145,22 @@
           "bin/placeholder/OKHOSTING.ORM.dll": {}
         }
       },
+      "OKHOSTING.ORM.UI/2.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "OKHOSTING.Core": "2.0.4",
+          "OKHOSTING.Data": "2.0.5",
+          "OKHOSTING.ORM": "2.0.0",
+          "OKHOSTING.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OKHOSTING.ORM.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OKHOSTING.ORM.UI.dll": {}
+        }
+      },
       "OKHOSTING.SQL/2.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -1190,6 +1206,21 @@
         },
         "runtime": {
           "bin/placeholder/OKHOSTING.SQL.DbProviders.MySql.dll": {}
+        }
+      },
+      "OKHOSTING.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "OKHOSTING.Core": "2.0.4",
+          "OKHOSTING.Data": "2.0.5"
+        },
+        "compile": {
+          "bin/placeholder/OKHOSTING.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OKHOSTING.UI.dll": {}
         }
       }
     }
@@ -1560,43 +1591,35 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/12.0.1": {
-      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "type": "package",
-      "path": "newtonsoft.json/12.0.1",
+      "path": "newtonsoft.json/12.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.pdb",
         "lib/net20/Newtonsoft.Json.xml",
         "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.pdb",
         "lib/net35/Newtonsoft.Json.xml",
         "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.pdb",
         "lib/net40/Newtonsoft.Json.xml",
         "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.pdb",
         "lib/net45/Newtonsoft.Json.xml",
         "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.pdb",
         "lib/netstandard1.0/Newtonsoft.Json.xml",
         "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.pdb",
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.pdb",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.1.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "runtime.native.System/4.0.0": {
@@ -4697,6 +4720,11 @@
       "path": "../../../OKHOSTING.ORM/src/Standard/OKHOSTING.ORM/OKHOSTING.ORM.csproj",
       "msbuildProject": "../../../OKHOSTING.ORM/src/Standard/OKHOSTING.ORM/OKHOSTING.ORM.csproj"
     },
+    "OKHOSTING.ORM.UI/2.0.0": {
+      "type": "project",
+      "path": "../../../OKHOSTING.ORM/src/Standard/OKHOSTING.ORM.UI/OKHOSTING.ORM.UI.csproj",
+      "msbuildProject": "../../../OKHOSTING.ORM/src/Standard/OKHOSTING.ORM.UI/OKHOSTING.ORM.UI.csproj"
+    },
     "OKHOSTING.SQL/2.0.1": {
       "type": "project",
       "path": "../../../OKHOSTING.SQL/src/Standard/OKHOSTING.SQL/OKHOSTING.SQL.csproj",
@@ -4711,6 +4739,11 @@
       "type": "project",
       "path": "../../../OKHOSTING.SQL/src/Standard/OKHOSTING.SQL.DbProviders.MySql/OKHOSTING.SQL.DbProviders.MySql.csproj",
       "msbuildProject": "../../../OKHOSTING.SQL/src/Standard/OKHOSTING.SQL.DbProviders.MySql/OKHOSTING.SQL.DbProviders.MySql.csproj"
+    },
+    "OKHOSTING.UI/1.0.0": {
+      "type": "project",
+      "path": "../../../OKHOSTING.UI/src/Standard/OKHOSTING.UI/OKHOSTING.UI.csproj",
+      "msbuildProject": "../../../OKHOSTING.UI/src/Standard/OKHOSTING.UI/OKHOSTING.UI.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4718,9 +4751,11 @@
       "NETStandard.Library >= 2.0.3",
       "OKHOSTING.Core >= 2.0.4",
       "OKHOSTING.ORM >= 2.0.0",
+      "OKHOSTING.ORM.UI >= 2.0.0",
       "OKHOSTING.SQL >= 2.0.1",
       "OKHOSTING.SQL.DbProviders >= 2.0.0",
-      "OKHOSTING.SQL.DbProviders.MySql >= 1.0.0"
+      "OKHOSTING.SQL.DbProviders.MySql >= 1.0.0",
+      "OKHOSTING.UI >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4757,6 +4792,9 @@
             "C:\\Desarrollo\\OKHOSTING.Core\\src\\Standard\\OKHOSTING.Core\\OKHOSTING.Core.csproj": {
               "projectPath": "C:\\Desarrollo\\OKHOSTING.Core\\src\\Standard\\OKHOSTING.Core\\OKHOSTING.Core.csproj"
             },
+            "C:\\Desarrollo\\OKHOSTING.ORM\\src\\Standard\\OKHOSTING.ORM.UI\\OKHOSTING.ORM.UI.csproj": {
+              "projectPath": "C:\\Desarrollo\\OKHOSTING.ORM\\src\\Standard\\OKHOSTING.ORM.UI\\OKHOSTING.ORM.UI.csproj"
+            },
             "C:\\Desarrollo\\OKHOSTING.ORM\\src\\Standard\\OKHOSTING.ORM\\OKHOSTING.ORM.csproj": {
               "projectPath": "C:\\Desarrollo\\OKHOSTING.ORM\\src\\Standard\\OKHOSTING.ORM\\OKHOSTING.ORM.csproj"
             },
@@ -4768,6 +4806,9 @@
             },
             "C:\\Desarrollo\\OKHOSTING.SQL\\src\\Standard\\OKHOSTING.SQL\\OKHOSTING.SQL.csproj": {
               "projectPath": "C:\\Desarrollo\\OKHOSTING.SQL\\src\\Standard\\OKHOSTING.SQL\\OKHOSTING.SQL.csproj"
+            },
+            "C:\\Desarrollo\\OKHOSTING.UI\\src\\Standard\\OKHOSTING.UI\\OKHOSTING.UI.csproj": {
+              "projectPath": "C:\\Desarrollo\\OKHOSTING.UI\\src\\Standard\\OKHOSTING.UI\\OKHOSTING.UI.csproj"
             }
           }
         }
