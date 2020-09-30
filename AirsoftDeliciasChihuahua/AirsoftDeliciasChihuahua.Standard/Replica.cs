@@ -6,5 +6,10 @@ namespace AirsoftDeliciasChihuahua.Standard
 {
     public class Replica
     {
+        public Guid Id { get; set; }
+
+        public string Modelo { get; set; }
+
+        public string NumeroSerie { get; set; }
     }
 }
