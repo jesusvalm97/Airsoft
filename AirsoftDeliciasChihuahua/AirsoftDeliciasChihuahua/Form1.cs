@@ -24,6 +24,8 @@ namespace AirsoftDeliciasChihuahua
 
             App = new AirsoftDeliciasChihuahua.Standard.App();
             App.MainPage = this;
+
+            new AirsoftDeliciasChihuahua.Standard.Login(this).Start();
         }
     }
 }

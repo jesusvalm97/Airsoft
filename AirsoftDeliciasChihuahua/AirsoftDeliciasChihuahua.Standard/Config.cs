@@ -18,7 +18,7 @@ namespace AirsoftDeliciasChihuahua.Standard
             BaitAndSwitch.PlatformSpecificConstructors.Add(typeof(DataBase), DataBase_Setup);
             BaitAndSwitch.PlatformSpecificConstructors.Add(typeof(OKHOSTING.SQL.Client), Client_Setup_Local);
             MapTypes();
-            Create();
+            //Create();
         }
 
         public static DataBase DataBase_Setup()
