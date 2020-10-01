@@ -19,5 +19,17 @@ namespace AirsoftDeliciasChihuahua.Standard
         public string Direccion { get; set; }
 
         public string ClubPerteneciente { get; set; }
+
+        public string NombreCompleto { 
+            get
+                {
+                return Nombre + Apellidos;
+                }
+        }
+
+        public override string ToString()
+        {
+            return NombreCompleto;
+        }
     }
 }

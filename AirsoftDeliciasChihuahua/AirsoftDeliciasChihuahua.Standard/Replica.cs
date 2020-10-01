@@ -11,5 +11,10 @@ namespace AirsoftDeliciasChihuahua.Standard
         public string Modelo { get; set; }
 
         public string NumeroSerie { get; set; }
+
+        public override string ToString()
+        {
+            return NumeroSerie;
+        }
     }
 }

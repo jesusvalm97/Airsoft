@@ -36,3 +36,5 @@ C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard
 C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\obj\Debug\netstandard2.0\AirsoftDeliciasChihuahua.Standard.csproj.CopyComplete
 C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\obj\Debug\netstandard2.0\AirsoftDeliciasChihuahua.Standard.dll
 C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\obj\Debug\netstandard2.0\AirsoftDeliciasChihuahua.Standard.pdb
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\obj\Debug\netstandard2.0\AirsoftDeliciasChihuahua.Standard.Resources.Images.resources
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\obj\Debug\netstandard2.0\AirsoftDeliciasChihuahua.Standard.csproj.GenerateResource.cache

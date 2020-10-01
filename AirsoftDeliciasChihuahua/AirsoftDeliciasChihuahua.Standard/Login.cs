@@ -17,14 +17,26 @@ namespace AirsoftDeliciasChihuahua.Standard
 
         ITextBox txtUser = BaitAndSwitch.Create<ITextBox>();
         IPasswordTextBox txtPassword = BaitAndSwitch.Create<IPasswordTextBox>();
+        ILabel lblWarning = BaitAndSwitch.Create<ILabel>();
         protected override void OnStart()
         {
             IStack stackMain = BaitAndSwitch.Create<IStack>();
 
-            txtUser.Placeholder = "Usuario";
+            ILabel lblUser = BaitAndSwitch.Create<ILabel>();
+            lblUser.Text = "Usuario";
+            stackMain.Children.Add(lblUser);
+            
             stackMain.Children.Add(txtUser);
 
+            ILabel lblPassword = BaitAndSwitch.Create<ILabel>();
+            lblPassword.Text = "Contraseña";
+            stackMain.Children.Add(lblPassword);
+
             stackMain.Children.Add(txtPassword);
+
+            lblWarning.Text = " ";
+            lblWarning.Visible = false;
+            stackMain.Children.Add(lblWarning);
 
             IButton cmdLogin = BaitAndSwitch.Create<IButton>();
             cmdLogin.Text = "Iniciar Sesion";
@@ -39,7 +51,13 @@ namespace AirsoftDeliciasChihuahua.Standard
         {
             if (txtUser.Value == "root" && txtPassword.Value == "PwE5G3")
             {
-                new OKHOSTING.ORM.UI.DataAppController(this.Page).Start();
+                lblWarning.Visible = false;
+                new DataAppController(this.Page).Start();
+            }
+            else
+            {
+                lblWarning.Text = "Uno de los datos están mal";
+                lblWarning.Visible = true;
             }
         }
     }
