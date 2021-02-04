@@ -88,6 +88,88 @@ namespace AirsoftDeliciasChihuahua.Standard
             gridMainHome.Visible = true;
         }
 
+        protected override IMenu CreateMenu()
+        {
+            IMenu menu = BaitAndSwitch.Create<IMenu>();
+
+            IMenuItem mainMenuItem = BaitAndSwitch.Create<IMenuItem>();
+            mainMenuItem.Text = "Menu";
+            menu.Items.Add(mainMenuItem);
+
+            IMenuItem menuItemHome = BaitAndSwitch.Create<IMenuItem>();
+            menuItemHome.Text = "Home";
+            menuItemHome.Click += MenuItemHome_Click;
+            mainMenuItem.Children.Add(menuItemHome);
+
+            IMenuItem menuItemPropietarios = BaitAndSwitch.Create<IMenuItem>();
+            menuItemPropietarios.Text = "Propietarios";
+            menuItemPropietarios.Click += MenuItemPropietarios_Click;
+            mainMenuItem.Children.Add(menuItemPropietarios);
+
+            IMenuItem menuItemReplica = BaitAndSwitch.Create<IMenuItem>();
+            menuItemReplica.Text = "Replicas";
+            menuItemReplica.Click += MenuItemReplica_Click;
+            mainMenuItem.Children.Add(menuItemReplica);
+
+            IMenuItem menuItemPropietarioReplica = BaitAndSwitch.Create<IMenuItem>();
+            menuItemPropietarioReplica.Text = "Propietario - Replica";
+            menuItemPropietarioReplica.Click += MenuItemPropietarioReplica_Click;
+            mainMenuItem.Children.Add(menuItemPropietarioReplica);
+
+            return menu;
+        }
+
+        private void MenuItemPropietarioReplica_Click(object sender, EventArgs e)
+        {
+            Master.Visible = true;
+            gridMainHome.Visible = false;
+
+            var dataType = DataType<PropietarioReplica>.GetDataType();
+
+            Select select = new Select();
+            select.DataType = dataType;
+            select.AddMembers(select.DataType.AllDataMembers);
+            select.Limit = new SelectLimit(0, 20);
+
+            new SelectController(Master, select).Start();
+        }
+
+        private void MenuItemReplica_Click(object sender, EventArgs e)
+        {
+            Master.Visible = true;
+            gridMainHome.Visible = false;
+
+            var dataType = DataType<Replica>.GetDataType();
+
+            Select select = new Select();
+            select.DataType = dataType;
+            select.AddMembers(select.DataType.AllDataMembers);
+            select.Limit = new SelectLimit(0, 20);
+
+            new SelectController(Master, select).Start();
+        }
+
+        private void MenuItemPropietarios_Click(object sender, EventArgs e)
+        {
+            Master.Visible = true;
+            gridMainHome.Visible = false;
+
+            var dataType = DataType<Propietario>.GetDataType();
+
+            Select select = new Select();
+            select.DataType = dataType;
+            select.AddMembers(select.DataType.AllDataMembers);
+            select.Limit = new SelectLimit(0, 20);
+
+            new SelectController(Master, select).Start();
+        }
+
+        private void MenuItemHome_Click(object sender, EventArgs e)
+        {
+            Master.Visible = false;
+            gridMainHome.Visible = true;
+        }
+
         private IControl HomePersonalizado()
         {
             gridMainHome.Visible = false;
