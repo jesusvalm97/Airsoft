@@ -17,10 +17,10 @@ namespace AirsoftDeliciasChihuahua.Standard
 
         }
 
-        IGrid gridMain = BaitAndSwitch.Create<IGrid>();
-
         protected override void OnStart()
         {
+            IGrid gridMain = BaitAndSwitch.Create<IGrid>();
+
             gridMain.ShowGridLines = true;
             gridMain.RowCount = 1;
             gridMain.ColumnCount = 6;
