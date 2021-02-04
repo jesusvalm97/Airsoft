@@ -23,7 +23,7 @@ namespace AirsoftDeliciasChihuahua.Standard
         public string NombreCompleto { 
             get
                 {
-                return Nombre + Apellidos;
+                return Nombre + " " + Apellidos;
                 }
         }
 
