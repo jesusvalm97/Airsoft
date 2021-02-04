@@ -73,7 +73,7 @@ namespace AirsoftDeliciasChihuahua.Standard
         public static void Create()
         {
             var dataBase = OKHOSTING.Core.BaitAndSwitch.Create<DataBase>();
-            dataBase.Create(DataType.AllDataTypes);
+            dataBase.Create(DataType.AllDataTypes.Values);
         }
         }
 }

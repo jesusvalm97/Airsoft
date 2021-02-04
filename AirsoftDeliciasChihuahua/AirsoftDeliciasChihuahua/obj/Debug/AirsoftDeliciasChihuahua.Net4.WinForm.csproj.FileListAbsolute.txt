@@ -63,3 +63,7 @@ C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\bin\Debu
 C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\bin\Debug\System.Memory.xml
 C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\bin\Debug\System.Numerics.Vectors.xml
 C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\bin\Debug\OKHOSTING.RPC.dll
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\bin\Debug\OKHOSTING.RPC.pdb
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\bin\Debug\es\OKHOSTING.ORM.UI.resources.dll
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua\bin\Debug\pt\OKHOSTING.ORM.UI.resources.dll

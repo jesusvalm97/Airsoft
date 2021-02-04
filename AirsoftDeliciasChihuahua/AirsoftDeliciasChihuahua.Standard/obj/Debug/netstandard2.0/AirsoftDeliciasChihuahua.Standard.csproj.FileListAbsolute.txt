@@ -38,3 +38,9 @@ C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard
 C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\obj\Debug\netstandard2.0\AirsoftDeliciasChihuahua.Standard.pdb
 C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\obj\Debug\netstandard2.0\AirsoftDeliciasChihuahua.Standard.Resources.Images.resources
 C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\obj\Debug\netstandard2.0\AirsoftDeliciasChihuahua.Standard.csproj.GenerateResource.cache
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\bin\Debug\netstandard2.0\OKHOSTING.RPC.dll
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\bin\Debug\netstandard2.0\OKHOSTING.Security.dll
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\bin\Debug\netstandard2.0\OKHOSTING.RPC.pdb
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\bin\Debug\netstandard2.0\OKHOSTING.Security.pdb
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\bin\Debug\netstandard2.0\es\OKHOSTING.ORM.UI.resources.dll
+C:\Desarrollo\Airsoft\AirsoftDeliciasChihuahua\AirsoftDeliciasChihuahua.Standard\bin\Debug\netstandard2.0\pt\OKHOSTING.ORM.UI.resources.dll

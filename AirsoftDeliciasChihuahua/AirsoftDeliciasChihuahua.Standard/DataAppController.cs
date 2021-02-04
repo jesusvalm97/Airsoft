@@ -24,8 +24,8 @@ namespace AirsoftDeliciasChihuahua.Standard
             var logo = BaitAndSwitch.Create<IImageButton>();
             logo.LoadFromBytes(Resources.Images.airsoft);
             logo.Click += logo_Click;
-            logo.Width = 250;
-            logo.Height = 250;
+            logo.Width = 150;
+            logo.Height = 150;
 
             return logo;
         }
